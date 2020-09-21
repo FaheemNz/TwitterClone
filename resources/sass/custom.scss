@@ -1,0 +1,70 @@
+body {
+    font-family: Raleway;
+}
+
+.navbar-brand-image {
+    width: 30px;
+    height: 30px;
+}
+
+.list-group-item {
+    font-weight: 600;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    background: unset;
+}
+
+.avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.list-group-item.avatar-list {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0.5rem;
+}
+
+.btn-rounded,
+.is-rounded {
+    border-radius: 24px;
+}
+
+.post-textarea {
+    border: none;
+}
+
+.card-tweet {
+    .card-header,
+    .card-footer {
+        background-color: transparent;
+    }
+}
+
+.link {
+    color: #222 !important;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.social-button svg {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.social-button button {
+    outline: none;
+    border: none;
+    background: transparent;
+}
